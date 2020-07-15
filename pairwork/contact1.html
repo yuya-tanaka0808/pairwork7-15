@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact1.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script type="text/javascript" src="contact1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <title>お問い合わせフォーム</title>
+  </head>
+  <body>
+      <header>
+        <h1>DIVE INTO CODE</h1>
+        <h3>お問い合わせ</h3>
+      </header>
+        <article class="content">
+          <h2>お問い合わせ内容入力</h2>
+          <p id = "change">お問い合わせ内容をご入力の上、「送信」ボタンをクリックしてください。</p>
+          <form action="contact1.html" method="post">
+            <table class="content_table">
+              <tr>
+                <th>お名前</th>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <th>ふりがな</th>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <th>連絡先</th>
+                <td><input type="email"></td>
+              </tr>
+              <tr>
+                <th>性別</th>
+                <td><a><input type="radio">男</a>
+                    <a><input type="radio">女</a></td>
+              </tr>
+              <tr>
+                <th>お問い合わせ内容</th>
+                <td><textarea></textarea></td>
+              </tr>
+              <tr>
+                <th></th>
+                <td>
+                  <input id="Button" type="button" value="送信" onclick="exec();"/> 
+                </td>
+              </tr>
+            </table>
+          </form>
+      </article>
+      <footer class="footer">
+        <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+      </footer>
+  </body>
+</html>

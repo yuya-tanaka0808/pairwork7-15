@@ -1,0 +1,48 @@
+html {
+  text-align: center;
+  background-image: url("images/らーめんよこなが.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0FF;
+  width: 500px;
+  color: White;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+h3{
+  color: gray;
+}
+.content{
+  color: gray;
+}
+.content_table{
+  margin: auto;
+  /* color: gray; */
+  /* background-image: url("images/らーめんたてなが.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+}
+tr {
+  padding-top: 30px;
+  height: 60px;
+
+}
+th {
+    text-align: right;
+}
+td {
+  text-align: left;
+  padding-left: 40px;
+}
+.footer{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0FF;
+  width: 500px;
+  color: White;
+  }
